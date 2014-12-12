@@ -1,0 +1,12 @@
+== README
+
+* group :test do
+*  gem 'shoulda-matchers'
+*  gem 'factory_girl_rails'
+*  gem 'cucumber-rails', require: false
+*  gem 'database_cleaner'
+*  gem 'selenium-webdriver'
+* end
+
+* rails generate cucumber:install
+* config/cucumber.yml, features/steps_definitions, features/support, lib, etc
